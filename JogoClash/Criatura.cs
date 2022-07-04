@@ -9,8 +9,8 @@ public class Criatura //: Jogador
 {
     public int posx;
     public int posy;
-    public Boolean tipo;
-    public Boolean hero;
+    public bool tipo;
+    public bool hero;
     public int uphero;
     
     
@@ -18,7 +18,7 @@ public class Criatura //: Jogador
     public int ataque;
     public int mov;
     public int alc;
-    public Criatura(int posx, int posy, Boolean tipo, Boolean hero, int uphero)
+    public Criatura(int posx, int posy, bool tipo, bool hero, int uphero)
     {
         this.posx  = posx;
         this.posy  = posy;

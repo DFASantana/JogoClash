@@ -6,49 +6,65 @@ namespace JogoClash;
 
 public class Jogo
 {
+    public int player;
     private Jogador jogador1;
     private Jogador jogador2;
+    private Jogador jogador3;
+    private Jogador jogador4;
     //private List<Criatura> criaturas;
 
-    public Jogo(Jogador jogador1, Jogador jogador2)
+    public Jogo(int player, Jogador jogador1, Jogador jogador2, Jogador jogador3, Jogador jogador4)
     {
+        this.player = player;
         this.jogador1 = jogador1;
         this.jogador2 = jogador2;
+        this.jogador3 = jogador3;
+        this.jogador4 = jogador4;
     }
 
     public void jogar()
     {
-
-    String [][] tabuleiro = new string[16][];
-    int tx, ty;
-    for (tx = 0; tx < 16; tx++)
-        {
-            for (ty = 0; ty < 16; ty++)
-            {
-                tabuleiro[tx][ty] = new string(" ");
-            }
-        }
-   
         int round = 1;
 
-        st:
-        Console.WriteLine("\nQuem inicia o Jogo?\n" +
-                          "0 - Escolha à sorte\n" +
-                          "1 - Jogador 1\n" +
-                          "2 - Jogador 2");
-        int start = Int16.Parse(Console.ReadLine());
+        Console.WriteLine("\nQuem inicia o Jogo?\n");
+/*
+        int p1 = 0, p2 = 0, p3 = 0, p4 = 0;
+        Random rnd = new Random();
 
-        if (start == 0)
-        {
-            Random rnd = new Random();
-            start = rnd.Next(1, 2);
+        int start = rnd.Next(1, player);
+        Jogador j1 = jogador[start];
+        p1 = start;
+        Console.WriteLine("jogadores " + player + " saiu " + start);//ver
+        jp2:
+        start = rnd.Next(1, player);
+        if (start == p1) {goto jp2;}
+        else {Jogador j2 = jogador[start]; p2 = start;}
+        Console.WriteLine("jogadores " + player + " saiu " + start);
+        if (player >= 3)
+        { jp3:
+            start = rnd.Next(1, player);
+            if (start == p1 || start == p2) {goto jp3;}
+            else {Jogador j3 = jogador[start]; p3 = start;}
         }
-        else if (start != 1 && start != 2)
-        {
-            goto st;
-        }
+        Console.WriteLine("jogadores " + player + " saiu " + start);
+        if (player == 4)
+        {jp4:
+        start = rnd.Next(1, player);
+        if (start == p1 || start == p2 || start == p3)
+        {goto jp4;}
+        else {Jogador j4 = jogador[start]; p4 = start;}
+    }Console.WriteLine("jogadores " + player + " saiu " + start);
+        Console.WriteLine(j1.nome);
+        Console.WriteLine(j2.nome);
+        Console.WriteLine(j3.nome);
+        Console.WriteLine(j4.nome);*/
+}
+        
+       
 
         //joga:
+        
+        /*
         int x = jogador1.criaturas.Count;
         int y = jogador2.criaturas.Count;
         Random rj = new Random();
@@ -160,5 +176,5 @@ public class Jogo
                           "\n  {0} Ganhou\n" +
                           "************************",vence);
         //Environment.Exit(0);
-    }
+    }*/
 }

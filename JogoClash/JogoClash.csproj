@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Arqueiro.cs" />
+      <Compile Remove="Lutador.cs" />
+      <Compile Remove="Sorte.cs" />
+    </ItemGroup>
+
 </Project>

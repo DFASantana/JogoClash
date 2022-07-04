@@ -1,30 +1,30 @@
 using System.Globalization;
 using System.Linq.Expressions;
+using System.Numerics;
 using System.Security.Principal;
 namespace JogoClash;
 
 public class Tabuleiro
 {
-    public string [][] tabuleiro;
-    //public int x;
-    //public int y;
-
-/*
-y -> baixo
-x -> lado
-*/
-
-    public Tabuleiro()
+    //Tamanho tabuleiro
+    private const int tile_countX = 16;
+    private const int tile_countY = 16;
+    //private tabuleiro[,] casas;
+    private string[,] tabuleiro;
+    private void Start()
     {
-    //String [][] tabuleiro = new string[16][];
-    int tx, ty;
-        for (tx = 0; tx < 16; tx++)
-    {
-        for (ty = 0; ty < 16; ty++)
-        {
-            tabuleiro[tx][ty] = new string(" ");
-        }
+        GenerateTile(1, tile_countX, tile_countY);
     }
-        this.tabuleiro = tabuleiro;
+
+    private void GenerateTile(float tilesize, int tileX, int tileY)
+    {
+        //tabuleiro[][] = new tabuleiro[tileX][tileY];
+        for (int x = 0; x < tileX; x++)
+        {
+            for (int y = 0; y < tileY; y++)
+            {
+                tabuleiro[x, y] = "X"+y; //GenerateTile(tilesize, x, y);
+            }
+        }
     }
 }
