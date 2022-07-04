@@ -1,0 +1,15 @@
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.csproj.AssemblyReference.cache
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.GeneratedMSBuildEditorConfig.editorconfig
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.AssemblyInfoInputs.cache
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.AssemblyInfo.cs
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.csproj.CoreCompileInputs.cache
+G:\Curso\JogoClash\JogoClash\bin\Debug\net6.0\JogoClash.exe
+G:\Curso\JogoClash\JogoClash\bin\Debug\net6.0\JogoClash.deps.json
+G:\Curso\JogoClash\JogoClash\bin\Debug\net6.0\JogoClash.runtimeconfig.json
+G:\Curso\JogoClash\JogoClash\bin\Debug\net6.0\JogoClash.dll
+G:\Curso\JogoClash\JogoClash\bin\Debug\net6.0\JogoClash.pdb
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.dll
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\refint\JogoClash.dll
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.pdb
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\JogoClash.genruntimeconfig.cache
+G:\Curso\JogoClash\JogoClash\obj\Debug\net6.0\ref\JogoClash.dll
